@@ -1,0 +1,21 @@
+empo=input("employment")
+empname=input("employ name")
+empdesig=input("employ designation")
+bs=int(input("basic salary"))
+de=int(input("daily allowance"))
+tr=int(input("travel allowance"))
+hra=int(input("hours rent allowance"))
+tax=0
+netsalary=bs+de+tr+hra 
+print("netsalary",netsalary)
+if(netsalary>100000):
+    tax=netsalary*10/100
+elif(netsalary>50000):
+    tax=7
+elif(netsalary>40000):
+    tax=4
+elif(netsalary>20000):
+    tax:2
+else:
+    tax=0
+print(tax ,"%")
