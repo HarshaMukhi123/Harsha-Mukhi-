@@ -1,0 +1,8 @@
+def ispolindrome(s):
+    return==s[::-1]
+s="samas"
+ans = is palindrome(s)
+if ans:
+     Print('yes')
+else:
+     Print('no')
